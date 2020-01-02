@@ -1,0 +1,525 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+body{
+    font-family:Arial,vrinda,times new roman,sans-serif;
+    font-size:14px;
+    line-height:20px;
+    color:#000;
+}
+#main{
+    display:block;
+    overflow: hidden;
+}
+#header{
+    height: 100px;
+    overflow: hidden;
+    background: white;
+}
+#logo{
+    float: left;
+    margin-left: 50px;
+}
+#headerRight{
+    float: right;
+    color: #1f74ad;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-right: 85px;
+    font-family: fantasy;
+    text-align: center;
+    word-spacing: 3px;
+}
+#headerRight strong{
+    font-size: 30px;
+}  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + #content {
+    padding-top: 40px;
+  }
+#navBar{
+    border-top: 1px solid #1f74ad;
+    border-bottom: 1px solid #1f74ad;
+    height: 40px;
+    background: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+}
+#navLeft ul{
+    list-style:none;
+}
+#navLeft ul li{
+    float: left;
+}
+#navLeft ul li a{
+    text-decoration: none;
+    display:block;
+    padding:10px 14px;
+    color: #2283c3;
+}
+#navLeft ul li a:hover{
+    border-left: 2px solid #1f74ad;
+    border-right: 2px solid #1f74ad;
+    background: #a8d3f0;
+    color: #fff;
+    padding:10px 12px;
+}
+#navRight ul{
+    float: right;
+    list-style:none;
+}
+#navRight ul li{
+    float: left;
+}
+#name{
+    padding:10px 14px;
+    color: #1f74ad;
+    font-family: fantasy;
+    background: #a8d3f0;
+    margin-right: 5px;
+}
+#navRight ul li a{
+    text-decoration: none;
+    display:block;
+    padding:10px 14px;
+    color: #2283c3;
+}
+
+#navRight ul li a:hover{
+    border-left: 2px solid #1f74ad;
+    border-right: 2px solid #1f74ad;
+    background: #a8d3f0;
+    color: #fff;
+    padding:10px 12px;
+}
+.fa{
+    color: #2283c3;
+    margin-right: 5px;
+}
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+  }
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)};
+}
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)};
+} */
+#content{
+    width:1020px;
+    background: white;
+}
+.loginForm{
+    height: 380px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #e6e6fa;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.loginForm h1{
+    font-family: fantasy;
+    color: #4B0082;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+.loginForm input[type="text"],.loginForm input[type="password"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 12px 18px;
+    width: 200px;
+    outline: none;
+    color: #4B0082;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.loginForm input[type="text"]:focus{
+    width: 260px;
+    border-color: indigo;
+    margin: 40px auto 40px auto;
+    color: #4B0082;
+}
+.loginForm input[type="password"]:focus{
+    width: 260px;
+    border-color: indigo;
+    color: #4B0082;
+}
+.loginForm input[type="submit"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid white;
+    padding: 12px 48px;
+    outline: none;
+    color: #4B0082;
+    font-weight: bold;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.loginForm input[type="submit"]:hover{
+    background: #6a5abd;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 48px;
+}
+.loginForm a{
+    color: #2283C3;
+    font-style: italic;
+    font-size: 14px;
+}
+.loginForm a:hover{
+    color: #4B0082;
+}
+#registrationForm, #resetForm{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 560px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #e9f4fb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#registrationForm h4{
+    margin-left: 175px;
+    font-weight: normal;
+    margin-bottom: 8px ;
+}
+#registrationForm h1{
+    color: #1f74ad;
+    margin-left: 175px;
+}
+#registrationForm p{
+    margin: 5px 0px 25px 268px;
+}
+#registrationForm label,#resetForm label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    font-size: 16px;
+    color: #1b6698;
+    margin-left: 65px;
+}
+#registrationForm input, #registrationForm select, #resetForm input, #resetForm select{
+    width: 240px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    font: 14px sans-serif;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 2px;
+    outline: none;
+    padding: 5px 10px;
+}
+#registrationForm input:focus,#registrationForm select:focus,#resetForm input:focus{
+    border-color: #1f74ad;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#registrationForm input[type="submit"],#resetForm input[type="submit"]{
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 16px;
+    background: #a8d3f0;
+    border: 2px solid #1f74ad;
+    color: black;
+}
+#registrationForm input[type="reset"]{
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: 16px;
+    background: #a8d3f0;
+    border: 2px solid #1f74ad;
+    color: black;
+}
+#registrationForm input[type="submit"]:hover,#registrationForm input[type="reset"]:hover,#resetForm input[type="submit"]:hover{
+    cursor: pointer;
+    background: #1f74ad;
+    color: white;
+}
+#cInfoUp textarea{
+    width: 228px;
+    margin-left: 35px;
+    margin-top: 20px;
+    height: 130px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#cInfoDown h1{
+    color: #1f74ad;
+    margin-left: 410px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #e9f4fb;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cDown{
+    border-right: 20px solid blueviolet;
+    width: 280px;
+    padding: 30px;
+    background: #e9f4fb;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 20px;
+    color: #1F74AD;
+}
+#cDownLeft{
+    float: left;
+    margin-left: 40px;
+}
+#cDownRight{
+    margin-right: 43px;
+}
+#social{
+    overflow: hidden;
+    margin-top: 18px;
+}
+#social a{
+    color: #175782;
+    text-decoration: none;
+}
+#social a:hover{
+    text-decoration: underline;
+}
+#icondiv{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+#icondiv img{
+    height: 28px;
+    width: 28px;
+}
+#linkdiv{
+    overflow: hidden;
+    word-spacing: 20px
+}
+#resetCancel{
+    margin-top: 30px;
+    margin-left: 180px;
+    font-size: 16px;
+    background: #a8d3f0;
+    border: 2px solid #1f74ad;
+    color: black;
+    text-decoration: none;
+    padding: 7px 33px;
+}
+#resetCancel:hover{
+    cursor: pointer;
+    background: #1f74ad;
+    color: white;
+}
+#aboutUs{
+    overflow: hidden;
+    padding: 40px 50px;
+    text-align: justify;
+}
+#aboutUs h2{
+    color: #1f74ad;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#aboutLeft{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #1b6698;
+    box-shadow: 10px 10px 5px #1f74ad;
+    float: left;
+    padding: 15px;
+}
+#aboutMid{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #1b6698;
+    box-shadow: 10px 10px 5px #1f74ad;
+    margin-left: 55px;
+    padding: 15px;
+    float: left;
+}
+#aboutRight{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #1b6698;
+    box-shadow: 10px 10px 5px #1f74ad;
+    float: right;
+    padding: 15px;
+}
+#linkTb{
+    padding: 20px;
+}
+#linkTable{
+    width: 800px;
+    padding: 10px;
+    border: 1px solid #175782;
+    color: #175782;
+    border-collapse: collapse;
+}
+#linkTable th{
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #175782;
+    background: #a8d3f0;
+    color: black;
+}
+#linkTable td{
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #175782;
+    color: blue;
+}
+.tt{
+    background: #e9f4fb;
+    color: black;
+    font-size: 14px;
+}
+#linkTable a{
+    text-decoration: none;
+    color: blue;
+}
+#linkTable a:hover{
+    text-decoration: underline;
+    color: #175782;
+}
+#rank p{
+    margin-top: 140px;
+}
+#quizContent{
+    padding: 10px 30px;
+}
+#quizContent h2{
+    color: #175782;
+    text-align: center;
+    margin-top: 10px;
+}
+#quiz{
+    margin: 10px;
+    border: 1px solid #175782;
+    padding: 30px;
+}
+#quiz p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #175782;
+    font-size: 16px;
+}
+#quiz input[type="radio"]{
+    margin-left: 25px;
+}
+#quiz label{
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 16px;
+}
+.quizSubmit{
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 35px;
+    width: 120px;
+    font-size: 16px;
+    background: #a8d3f0;
+    border: 2px solid #1f74ad;
+    color: black;
+}
+.quizSubmit:hover{
+    cursor: pointer;
+    background: #1f74ad;
+    color: white;
+}
+#htmlLevel{
+    padding: 30px;
+    text-align: center;
+}
+#htmlLevel h2{
+    color: #1f74ad;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#htmlLevel a{
+    font-size: 16px;
+    text-decoration: none;
+    color: blue;
+}
+#htmlLevel a:hover{
+    text-decoration: underline;
+    color: #175782;
+}
+#result,#rank{
+    padding: 10px 30px;
+}
+#result h2,#rank h2{
+    color: #175782;
+    text-align: center;
+    margin-top: 10px;
+}
+#resultTb,#rankTb{
+    padding: 20px;
+}
+#resTable,#rankTable{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #175782;
+    color: #175782;
+    border-collapse: collapse;
+}
+#resTable th,#rankTable th{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #175782;
+    background: #a8d3f0;
+    color: black;
+}
+#resTable td,#rankTable td{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #175782;
+    text-align: center;
+}
+#rankTable{
+    width: 800px;
+}
+#footer{
+    overflow: hidden;
+    background:#2283c3;
+    color:#fff;
+    margin-bottom: 2px;
+    padding: 1px;
+}
