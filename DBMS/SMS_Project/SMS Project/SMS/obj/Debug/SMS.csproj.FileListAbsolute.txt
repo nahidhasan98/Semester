@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.Login_form.resources
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\User\Desktop\New folder\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\User\Desktop\New folder\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.Menu_form.resources
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.Insert_form.resources
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.Delete_form.resources
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.Update_form.resources
+C:\Users\User\Desktop\New folder\SMS\SMS\obj\Debug\SMS.View_search_form.resources
